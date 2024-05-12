@@ -1,6 +1,7 @@
 #include "spaghetti.h" 
+#define EQUAL =
 int zi EQUAL 0; int rw EQUAL 3;
-extern int relocate EQUAL 3;
+ int relocate = 3;
 extern structure recipes [3];
 int add(int a, int b);
 
